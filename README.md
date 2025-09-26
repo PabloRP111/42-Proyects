@@ -72,11 +72,11 @@ Juego 2D sencillo desarrollado utilizando gráficos básicos y eventos de teclad
 ## 🛠️ Cómo usar este repositorio
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/prosas-p/nombre_repositorio.git
+   git clone https://github.com/prosas-p/42-Proyects
    ```
 2. Navega al directorio del proyecto que deseas explorar:
    ```bash
-   cd nombre-del-proyecto
+   cd 42-Proyects/nombre-del-proyecto
    ```
 3. Sigue las instrucciones específicas del proyecto en su directorio correspondiente.
 
