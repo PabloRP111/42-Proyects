@@ -10,7 +10,7 @@ LIBE = $(LIB)/libdef.a
 LIBMLX = ../MLX42/build
 LIBMLXE = $(LIBMLX)/libmlx42.a
 
-all: $(EXEC) $(LIBMLXE) $(LIBE)
+all: $(EXEC)
 
 $(LIBE):
 	make -C $(LIB)

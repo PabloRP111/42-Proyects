@@ -1,0 +1,8 @@
+*.txt
+*.o
+*.a
+.vscode
+pipex
+pipex_bonus
+libdef
+libdef.a

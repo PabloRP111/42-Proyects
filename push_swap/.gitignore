@@ -1,0 +1,13 @@
+*.log
+*.txt
+.vscode
+.DS_Store
+checker_Mac
+a.out
+*.o
+*.a
+push_swap
+checker_linux
+checker
+*.sh
+0

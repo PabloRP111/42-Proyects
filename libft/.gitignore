@@ -1,0 +1,4 @@
+a.out
+*.o
+*.a
+.vs_code

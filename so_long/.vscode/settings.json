@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "so_long.h": "c",
+        "mlx42.h": "c",
+        "random": "c",
+        "functional": "c"
+    }
+}
