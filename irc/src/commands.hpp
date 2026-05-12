@@ -15,7 +15,7 @@
 #include <vector>
 #include <cstdlib>
 
-#include "aux.hpp"
+#include "aux1.hpp"
 
 // Forward declarations
 struct Server;

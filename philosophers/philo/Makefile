@@ -1,7 +1,7 @@
 CC = clang
 CFLAGS = -Wall -Wextra -Werror -pthread
 EXEC = philo
-SRCS = philosophers.c val_args.c aux.c thread.c aux2.c lonely_boy.c
+SRCS = philosophers.c val_args.c aux1.c thread.c aux2.c lonely_boy.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(EXEC)

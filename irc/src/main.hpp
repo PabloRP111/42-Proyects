@@ -28,7 +28,7 @@
 #include <cerrno>
 #include <cstdio>
 #include <signal.h>
-#include "aux.hpp"
+#include "aux1.hpp"
 #include "commands.hpp"
 #include "commands_admin.hpp"
 #include "passive_commands.hpp"
