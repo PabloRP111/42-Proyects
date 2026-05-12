@@ -9,7 +9,7 @@
 ### 1. **Libft**
 Desarrollo de una biblioteca estándar personalizada en C, reimplementando funciones esenciales de la libc junto con utilidades adicionales para manipulación de memoria, strings y listas enlazadas.
 
-📄 [Subject del Proyecto](./libft/en.subject.pdf)
+📄 [Subject del Proyecto](./libft/es.subject.pdf)
 
 ### 2. **Born2BeRoot**
 Introducción a la administración de sistemas y virtualización en Linux.
@@ -20,7 +20,7 @@ Configuración de una máquina virtual segura aplicando políticas de usuarios, 
 ### 3. **ft_printf**
 Reimplementación de la función printf de la libc, gestionando formatos, conversiones y salida formateada mediante argumentos variables (stdarg.h).
 
-📄 [Subject del Proyecto](./ft_printf/en.subject.pdf)
+📄 [Subject del Proyecto](./ft_printf/es.subject.pdf)
 
 ### 4. **Get Next Line**
 Implementación de una función capaz de leer archivos línea por línea desde uno o múltiples file descriptors, optimizando la gestión de buffers y memoria dinámica.
@@ -42,17 +42,17 @@ Enfoque centrado en complejidad algorítmica, minimización de movimientos y est
 Juego 2D desarrollado en C utilizando la MiniLibX.
 Incluye renderizado de mapas, control de eventos, movimiento del jugador y validación de mapas.
 
-📄 [Subject del Proyecto](./so_long/en.subject.pdf)
+📄 [Subject del Proyecto](./so_long/es.subject.pdf)
 
 ### 8. **philosophers**
 Implementación del clásico problema de los filósofos comensales utilizando hilos (pthread) y mecanismos de sincronización para evitar condiciones de carrera y deadlocks.
 
-📄 [Subject del Proyecto](./philosophers/en.subject.pdf)
+📄 [Subject del Proyecto](./philosophers/es.subject.pdf)
 
 ### 9. **minishell**
 Desarrollo de un shell inspirado en Bash con parsing de comandos, pipes, redirecciones, variables de entorno y ejecución de procesos.
 
-📄 [Subject del Proyecto](./minishell/en.subject.pdf)
+📄 [Subject del Proyecto](./minishell/es.subject.pdf)
 
 ### 10. **NetPractice**
 Introducción práctica a redes y direccionamiento IP mediante ejercicios de configuración de redes TCP/IP, routing y subnetting.
