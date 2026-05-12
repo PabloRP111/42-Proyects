@@ -25,7 +25,7 @@ Reimplementación de la función printf de la libc, gestionando formatos, conver
 ### 4. **Get Next Line**
 Implementación de una función capaz de leer archivos línea por línea desde uno o múltiples file descriptors, optimizando la gestión de buffers y memoria dinámica.
 
-📄 [Subject del Proyecto](./get_next_line/en.subject.pdf)
+📄 [Subject del Proyecto](./get_next_line/es.subject.pdf)
 
 ### 5. **Pipex**
 Recreación del comportamiento de pipes en UNIX utilizando procesos hijo, fork, execve, dup2 y redirecciones de entrada/salida.
@@ -36,7 +36,7 @@ Recreación del comportamiento de pipes en UNIX utilizando procesos hijo, fork, 
 Desarrollo de un algoritmo de ordenación optimizado utilizando únicamente un conjunto limitado de operaciones sobre pilas.
 Enfoque centrado en complejidad algorítmica, minimización de movimientos y estrategias de sorting.
 
-📄 [Subject del Proyecto](./push_swap/en.subject.pdf)
+📄 [Subject del Proyecto](./push_swap/es.subject.pdf)
 
 ### 7. **So Long**
 Juego 2D desarrollado en C utilizando la MiniLibX.
