@@ -1,0 +1,82 @@
+volumes:
+  wordpress_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/prosas/data/wordpress
+
+  mariadb_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/prosas/data/mariadb
+
+networks:
+  inception:
+    name: inception
+    driver: bridge
+
+services:
+  mariadb:
+    env_file: .env
+    build: ./requirements/mariadb
+    container_name: mariadb
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    networks:
+      - inception
+    restart: always
+    secrets:
+      - db_user_password
+      - db_root_password
+
+  wordpress:
+    env_file: .env
+    build: ./requirements/wordpress
+    container_name: wordpress
+    volumes:
+      - wordpress_data:/var/www/html
+    networks:
+      - inception
+    restart: always
+    depends_on:
+      - mariadb
+    secrets:
+      - db_user_password
+      - db_root_password
+      - wp_admin_usr
+      - wp_admin_pwd
+      - wp_admin_email
+      - wp_user_pwd
+      - wp_user_email
+
+  nginx:
+    build: ./requirements/nginx
+    container_name: nginx
+    depends_on:
+      - wordpress
+    ports:
+      - "443:443"
+    volumes:
+      - wordpress_data:/var/www/html
+    networks:
+      - inception
+    restart: always
+
+secrets:
+  db_user_password:
+    file: ../secrets/db_user_password.txt
+  db_root_password:
+    file: ../secrets/db_root_password.txt
+  wp_admin_usr:
+    file: ../secrets/wp_admin_usr.txt
+  wp_admin_pwd:
+    file: ../secrets/wp_admin_pwd.txt
+  wp_admin_email:
+    file: ../secrets/wp_admin_email.txt
+  wp_user_pwd:
+    file: ../secrets/wp_user_pwd.txt
+  wp_user_email:
+    file: ../secrets/wp_user_email.txt

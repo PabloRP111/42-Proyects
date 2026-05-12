@@ -1,0 +1,3 @@
+# srcs/requirements/mariadb/.dockerignore
+*.md
+.git

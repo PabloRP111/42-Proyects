@@ -1,0 +1,19 @@
+[mysqld]
+user = mysql # exec the service with the user mysql
+pid-file = /run/mysqld/mysqld.pid
+socket = /run/mysqld/mysqld.sock
+port = 3306 # standar port mariadb
+basedir = /usr
+datadir = /var/lib/mysql
+tmpdir = /tmp
+lc-messages-dir = /usr/share/mysql
+bind-address = 0.0.0.0 # allow acces to another containers like Wordpress
+
+# Rendimiento y charset
+query_cache_size = 16M # keep recent result in memory until 16MB
+character-set-server = utf8mb4
+collation-server = utf8mb4_general_ci
+
+# Logs
+log_error = /var/log/mysql/error.log
+expire_logs_days = 10 
