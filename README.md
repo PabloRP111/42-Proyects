@@ -1,71 +1,91 @@
-# 🌟 Proyectos de 42
+# 🌟 Common Core Projects - 42
 
-¡Bienvenido a mi repositorio de proyectos realizados en la formación de **42**! Aquí encontrarás una recopilación de los trabajos que he completado, organizados por nivel y con enlaces a los temas (subjects) en formato PDF. Cada proyecto representa un paso más en el camino hacia el dominio de la programación.
+¡Bienvenido a mi repositorio de proyectos realizados en la formación de **42**! Aquí encontrarás una colección de proyectos desarrollados durante el Common Core de 42, enfocados en programación de bajo nivel, algoritmia, sistemas UNIX, redes, concurrencia y desarrollo gráfico. Todo construido principalmente en C y C++.
 
 ---
 
 ## 📋 Lista de Proyectos
 
-### 1. **Born to be Root**
-Proyecto de introducción al sistema operativo Linux y administración básica de sistemas.
-
-📄 [Subject del Proyecto](./born_to_be_root/subject.pdf)
-
----
-
-### 2. **Get Next Line**
-Implementación de una función en C para leer líneas de un archivo descriptor.
-
-📄 [Subject del Proyecto](./get_next_line/subject.pdf)
-
----
-
-### 3. **Libft**
-Creación de una biblioteca personalizada de funciones estándar de C.
+### 1. **Libft**
+Desarrollo de una biblioteca estándar personalizada en C, reimplementando funciones esenciales de la libc junto con utilidades adicionales para manipulación de memoria, strings y listas enlazadas.
 
 📄 [Subject del Proyecto](./libft/subject.pdf)
 
----
+### 2. **Born2BeRoot**
+Introducción a la administración de sistemas y virtualización en Linux.
+Configuración de una máquina virtual segura aplicando políticas de usuarios, SSH, firewall, sudo y particionado con LVM.
 
-### 4. **Minishell**
-Desarrollo de un shell funcional que interprete comandos básicos.
+📄 [Subject del Proyecto](./born_to_be_root/subject.pdf)
 
-📄 [Subject del Proyecto](./minishell/subject.pdf)
+### 3. **ft_printf**
+Reimplementación de la función printf de la libc, gestionando formatos, conversiones y salida formateada mediante argumentos variables (stdarg.h).
 
----
+📄 [Subject del Proyecto](./ft_printf/subject.pdf)
 
-### 5. **Philosophers**
-Resolución del problema clásico de los filósofos comensales con gestión de hilos y sincronización.
+### 4. **Get Next Line**
+Implementación de una función capaz de leer archivos línea por línea desde uno o múltiples file descriptors, optimizando la gestión de buffers y memoria dinámica.
 
-📄 [Subject del Proyecto](./philosophers/subject.pdf)
+📄 [Subject del Proyecto](./get_next_line/subject.pdf)
 
----
-
-### 6. **Pipex**
-Implementación de un programa que replique el comportamiento de pipes en Linux.
+### 5. **Pipex**
+Recreación del comportamiento de pipes en UNIX utilizando procesos hijo, fork, execve, dup2 y redirecciones de entrada/salida.
 
 📄 [Subject del Proyecto](./pipex/subject.pdf)
 
----
-
-### 7. **Printf**
-Recreación de la función estándar `printf` con manejo de múltiples formatos.
-
-📄 [Subject del Proyecto](./printf/subject.pdf)
-
----
-
-### 8. **Push Swap**
-Algoritmo para ordenar una pila utilizando un conjunto limitado de operaciones.
+### 6. **Push Swap**
+Desarrollo de un algoritmo de ordenación optimizado utilizando únicamente un conjunto limitado de operaciones sobre pilas.
+Enfoque centrado en complejidad algorítmica, minimización de movimientos y estrategias de sorting.
 
 📄 [Subject del Proyecto](./push_swap/subject.pdf)
 
----
-
-### 9. **So Long**
-Juego 2D sencillo desarrollado utilizando gráficos básicos y eventos de teclado.
+### 7. **So Long**
+Juego 2D desarrollado en C utilizando la MiniLibX.
+Incluye renderizado de mapas, control de eventos, movimiento del jugador y validación de mapas.
 
 📄 [Subject del Proyecto](./so_long/subject.pdf)
+
+### 8. **philosophers**
+Implementación del clásico problema de los filósofos comensales utilizando hilos (pthread) y mecanismos de sincronización para evitar condiciones de carrera y deadlocks.
+
+📄 [Subject del Proyecto](./philosophers/subject.pdf)
+
+### 9. **minishell**
+Desarrollo de un shell inspirado en Bash con parsing de comandos, pipes, redirecciones, variables de entorno y ejecución de procesos.
+
+📄 [Subject del Proyecto](./minishell/subject.pdf)
+
+### 10. **NetPractice**
+Introducción práctica a redes y direccionamiento IP mediante ejercicios de configuración de redes TCP/IP, routing y subnetting.
+
+📄 [Subject del Proyecto](./net_practice/subject.pdf)
+
+### 11. **Cub3D**
+Motor gráfico básico inspirado en Wolfenstein 3D utilizando raycasting.
+Renderizado pseudo-3D en tiempo real, manejo de texturas, minimapa y control de cámara.
+
+📄 [Subject del Proyecto](./cub3d/subject.pdf)
+
+### 12. **CPP Modules**
+Serie de módulos enfocados en programación orientada a objetos en C++.
+Incluye conceptos como clases, herencia, polimorfismo, templates, excepciones y STL.
+
+📄 [Subject del Proyecto](./cpp/subject.pdf)
+
+### 13. **Inception**
+Proyecto de virtualización y DevOps basado en Docker.
+Configuración de múltiples servicios desacoplados mediante contenedores, networking y docker-compose.
+
+📄 [Subject del Proyecto](./inception/subject.pdf)
+
+### 14. **ft_IRC**
+Desarrollo de un servidor IRC compatible con clientes estándar, implementando sockets, multiplexación y comunicación en tiempo real.
+
+📄 [Subject del Proyecto](./ft_irc/subject.pdf)
+
+### 15. **Exams**
+Colección de ejercicios y prácticas orientadas a la preparación de los exámenes del Common Core de 42.
+
+📄 [Subject del Proyecto](./exams/subject.pdf)
 
 ---
 
@@ -86,5 +106,3 @@ Juego 2D sencillo desarrollado utilizando gráficos básicos y eventos de teclad
 
 ## 🎓 Sobre 42
 La formación de 42 es una experiencia única que combina el aprendizaje autónomo con proyectos prácticos para preparar a los estudiantes como programadores de clase mundial. Para más información, visita [42 Network](https://www.42network.org/).
-
-¡Explora, aprende y disfruta el camino del código! 🚀
