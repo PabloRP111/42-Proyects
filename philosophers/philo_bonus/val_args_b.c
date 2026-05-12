@@ -36,7 +36,7 @@ int	is_uint(const char *str, int i)
 	}
 	if (num < INT_MIN || num > INT_MAX)
 		return (0);
-	if (num < 60 && (i == 2 || i == 3 || i == 4))
+	if ((i == 2 || i == 3 || i == 4))
 		return (0);
 	return (1);
 }
